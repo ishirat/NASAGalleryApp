@@ -29,4 +29,5 @@ class NASAGalleryAppUITestsLaunchTests: XCTestCase {
         attachment.lifetime = .keepAlways
         add(attachment)
     }
+    
 }

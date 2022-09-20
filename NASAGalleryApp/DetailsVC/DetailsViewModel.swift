@@ -6,9 +6,13 @@
 //
 
 import Foundation
+
 class DetailsViewModel{
+    
     let items: [NASAItem]
+    
     var selectedIndex: Int = 0
+    
     init(items: [NASAItem]){
         self.items = items
     }

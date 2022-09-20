@@ -12,6 +12,7 @@ class DetailsViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.register(UINib(nibName: "DetailsCVCell", bundle: nil), forCellWithReuseIdentifier: "DetailsCVCell")
@@ -26,6 +27,8 @@ class DetailsViewController: UIViewController {
        }
    }
     
+
+
 extension DetailsViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

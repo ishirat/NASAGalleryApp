@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9A4D4E23-81AB-4CC3-8967-6D57B95C3868"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NASAGalleryAppTests/NASAGalleryAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "testControllerHasCollectionView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 756c5daf7b65ac6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.viewModel.getter : Swift.Optional&lt;NASAGalleryApp.ListVCVM&gt;"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - f7c66795b5178202"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.viewModel.setter : Swift.Optional&lt;NASAGalleryApp.ListVCVM&gt;"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 9da947a8a0a6bcb5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.viewModel.modify : Swift.Optional&lt;NASAGalleryApp.ListVCVM&gt;"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - af7303d274075e96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.viewModel.modify : Swift.Optional&lt;NASAGalleryApp.ListVCVM&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - b1c947028ebeaa92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; NASAGalleryAppTests.NASAGalleryAppTests"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 7c8737ebb1787e92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.init(selector: ObjectiveC.Selector) -&gt; NASAGalleryAppTests.NASAGalleryAppTests"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - ae1968ca27e32dac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.init() -&gt; NASAGalleryAppTests.NASAGalleryAppTests"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 6c2d9a4cd5fa2a05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.testControllerHasTableView() -&gt; ()"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 6c2d9a4cd5fa2a47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.testControllerHasTableView() -&gt; ()"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "438">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 3021642f4088ed2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.testControllerHasCollectionView() -&gt; ()"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 3021642f4088ed6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.testControllerHasCollectionView() -&gt; ()"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "438">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 3021642f4088ed2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.testControllerHasCollectionView() -&gt; ()"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "C7AB9455-5801-47E2-811D-04583CB43DC1 - 3021642f4088ed6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NASAGalleryAppTests.NASAGalleryAppTests.testControllerHasCollectionView() -&gt; ()"
+                  moduleName = "NASAGalleryAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/comvision/Documents/Apps/NASAGalleryApp/NASAGalleryAppTests/NASAGalleryAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "950">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

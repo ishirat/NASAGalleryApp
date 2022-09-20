@@ -18,9 +18,7 @@ class NASAItem{
     let title: String
     let url: String
     let dateD: Date
-    
-    
-    
+
 
     init(data: [String:String]){
         copyright   = data["copyright"] ?? "N/A"
@@ -35,15 +33,5 @@ class NASAItem{
         
     }
 
-    
 }
 
-extension String{
-    func getDate(withFormat: String ) -> Date{
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = withFormat
-        dateFormatter.timeZone = NSTimeZone(name: "UTC") as TimeZone?
-        return dateFormatter.date(from: self) ?? Date()
-    }
-    
-}

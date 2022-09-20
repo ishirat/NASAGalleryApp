@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A247BCC128D6F9B400DB8861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCC028D6F9B400DB8861 /* AppDelegate.swift */; };
-		A247BCC328D6F9B400DB8861 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCC228D6F9B400DB8861 /* SceneDelegate.swift */; };
-		A247BCC528D6F9B400DB8861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCC428D6F9B400DB8861 /* ViewController.swift */; };
+		A247BCC528D6F9B400DB8861 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCC428D6F9B400DB8861 /* ListVC.swift */; };
 		A247BCC828D6F9B400DB8861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A247BCC628D6F9B400DB8861 /* Main.storyboard */; };
 		A247BCCA28D6F9B500DB8861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A247BCC928D6F9B500DB8861 /* Assets.xcassets */; };
 		A247BCCD28D6F9B500DB8861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A247BCCB28D6F9B500DB8861 /* LaunchScreen.storyboard */; };
 		A247BCD828D6F9B500DB8861 /* NASAGalleryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCD728D6F9B500DB8861 /* NASAGalleryAppTests.swift */; };
 		A247BCE228D6F9B500DB8861 /* NASAGalleryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCE128D6F9B500DB8861 /* NASAGalleryAppUITests.swift */; };
 		A247BCE428D6F9B500DB8861 /* NASAGalleryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCE328D6F9B500DB8861 /* NASAGalleryAppUITestsLaunchTests.swift */; };
+		A247BCF328D6FA2B00DB8861 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A247BCF228D6FA2B00DB8861 /* data.json */; };
+		A247BCF528D6FD2300DB8861 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCF428D6FD2300DB8861 /* Connection.swift */; };
+		A247BCF828D6FDA700DB8861 /* ListVCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCF728D6FDA700DB8861 /* ListVCVM.swift */; };
+		A247BCFB28D6FF8C00DB8861 /* NASAItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCFA28D6FF8C00DB8861 /* NASAItem.swift */; };
+		A247BCFD28D7067E00DB8861 /* NASAImageCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCFC28D7067E00DB8861 /* NASAImageCVCell.swift */; };
+		A247BD0028D7079A00DB8861 /* NASAImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BCFF28D7079A00DB8861 /* NASAImageView.swift */; };
+		A247BD0328D72B2800DB8861 /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BD0128D72B2800DB8861 /* PresentAnimator.swift */; };
+		A247BD0428D72B2800DB8861 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BD0228D72B2800DB8861 /* DismissAnimator.swift */; };
+		A247BD0628D72E6100DB8861 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BD0528D72E6100DB8861 /* DetailsViewController.swift */; };
+		A247BD0A28D72FFA00DB8861 /* ImageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BD0828D72FFA00DB8861 /* ImageTVCell.swift */; };
+		A247BD0B28D72FFA00DB8861 /* ImageTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A247BD0928D72FFA00DB8861 /* ImageTVCell.xib */; };
+		A247BD0F28D733C000DB8861 /* TextTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BD0D28D733C000DB8861 /* TextTVCell.swift */; };
+		A247BD1028D733C000DB8861 /* TextTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A247BD0E28D733C000DB8861 /* TextTVCell.xib */; };
+		A247BD1428D7399700DB8861 /* DetailsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BD1228D7399700DB8861 /* DetailsCVCell.swift */; };
+		A247BD1528D7399700DB8861 /* DetailsCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A247BD1328D7399700DB8861 /* DetailsCVCell.xib */; };
+		A247BD1728D73AF100DB8861 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BD1628D73AF100DB8861 /* DetailsViewModel.swift */; };
+		A247BD1E28D7507C00DB8861 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247BD1D28D7507C00DB8861 /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +54,7 @@
 /* Begin PBXFileReference section */
 		A247BCBD28D6F9B400DB8861 /* NASAGalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAGalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A247BCC028D6F9B400DB8861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A247BCC228D6F9B400DB8861 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A247BCC428D6F9B400DB8861 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A247BCC428D6F9B400DB8861 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		A247BCC728D6F9B400DB8861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A247BCC928D6F9B500DB8861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A247BCCC28D6F9B500DB8861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,23 @@
 		A247BCDD28D6F9B500DB8861 /* NASAGalleryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASAGalleryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A247BCE128D6F9B500DB8861 /* NASAGalleryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAGalleryAppUITests.swift; sourceTree = "<group>"; };
 		A247BCE328D6F9B500DB8861 /* NASAGalleryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAGalleryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A247BCF228D6FA2B00DB8861 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A247BCF428D6FD2300DB8861 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		A247BCF728D6FDA700DB8861 /* ListVCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVCVM.swift; sourceTree = "<group>"; };
+		A247BCFA28D6FF8C00DB8861 /* NASAItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAItem.swift; sourceTree = "<group>"; };
+		A247BCFC28D7067E00DB8861 /* NASAImageCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAImageCVCell.swift; sourceTree = "<group>"; };
+		A247BCFF28D7079A00DB8861 /* NASAImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAImageView.swift; sourceTree = "<group>"; };
+		A247BD0128D72B2800DB8861 /* PresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
+		A247BD0228D72B2800DB8861 /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		A247BD0528D72E6100DB8861 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A247BD0828D72FFA00DB8861 /* ImageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTVCell.swift; sourceTree = "<group>"; };
+		A247BD0928D72FFA00DB8861 /* ImageTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTVCell.xib; sourceTree = "<group>"; };
+		A247BD0D28D733C000DB8861 /* TextTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTVCell.swift; sourceTree = "<group>"; };
+		A247BD0E28D733C000DB8861 /* TextTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTVCell.xib; sourceTree = "<group>"; };
+		A247BD1228D7399700DB8861 /* DetailsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCVCell.swift; sourceTree = "<group>"; };
+		A247BD1328D7399700DB8861 /* DetailsCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsCVCell.xib; sourceTree = "<group>"; };
+		A247BD1628D73AF100DB8861 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		A247BD1D28D7507C00DB8861 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +131,11 @@
 		A247BCBF28D6F9B400DB8861 /* NASAGalleryApp */ = {
 			isa = PBXGroup;
 			children = (
-				A247BCC028D6F9B400DB8861 /* AppDelegate.swift */,
-				A247BCC228D6F9B400DB8861 /* SceneDelegate.swift */,
-				A247BCC428D6F9B400DB8861 /* ViewController.swift */,
+				A247BD1C28D74E9400DB8861 /* Resources */,
+				A247BD1B28D74E4600DB8861 /* ListVC */,
+				A247BD1A28D74E1B00DB8861 /* DetailsVC */,
+				A247BCFE28D7078700DB8861 /* CustomClass */,
 				A247BCC628D6F9B400DB8861 /* Main.storyboard */,
-				A247BCC928D6F9B500DB8861 /* Assets.xcassets */,
 				A247BCCB28D6F9B500DB8861 /* LaunchScreen.storyboard */,
 				A247BCCE28D6F9B500DB8861 /* Info.plist */,
 			);
@@ -125,6 +157,86 @@
 				A247BCE328D6F9B500DB8861 /* NASAGalleryAppUITestsLaunchTests.swift */,
 			);
 			path = NASAGalleryAppUITests;
+			sourceTree = "<group>";
+		};
+		A247BCF928D6FF7B00DB8861 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A247BCFC28D7067E00DB8861 /* NASAImageCVCell.swift */,
+				A247BCFA28D6FF8C00DB8861 /* NASAItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A247BCFE28D7078700DB8861 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				A247BD0128D72B2800DB8861 /* PresentAnimator.swift */,
+				A247BD0228D72B2800DB8861 /* DismissAnimator.swift */,
+				A247BCFF28D7079A00DB8861 /* NASAImageView.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		A247BD0728D72FD700DB8861 /* ImageTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				A247BD0828D72FFA00DB8861 /* ImageTVCell.swift */,
+				A247BD0928D72FFA00DB8861 /* ImageTVCell.xib */,
+			);
+			path = ImageTVCell;
+			sourceTree = "<group>";
+		};
+		A247BD0C28D733AB00DB8861 /* TextTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				A247BD0D28D733C000DB8861 /* TextTVCell.swift */,
+				A247BD0E28D733C000DB8861 /* TextTVCell.xib */,
+			);
+			path = TextTVCell;
+			sourceTree = "<group>";
+		};
+		A247BD1128D7397A00DB8861 /* DetailsCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				A247BD1228D7399700DB8861 /* DetailsCVCell.swift */,
+				A247BD1328D7399700DB8861 /* DetailsCVCell.xib */,
+			);
+			path = DetailsCVCell;
+			sourceTree = "<group>";
+		};
+		A247BD1A28D74E1B00DB8861 /* DetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				A247BD0728D72FD700DB8861 /* ImageTVCell */,
+				A247BD0C28D733AB00DB8861 /* TextTVCell */,
+				A247BD1128D7397A00DB8861 /* DetailsCVCell */,
+				A247BD1628D73AF100DB8861 /* DetailsViewModel.swift */,
+				A247BD0528D72E6100DB8861 /* DetailsViewController.swift */,
+			);
+			path = DetailsVC;
+			sourceTree = "<group>";
+		};
+		A247BD1B28D74E4600DB8861 /* ListVC */ = {
+			isa = PBXGroup;
+			children = (
+				A247BCC428D6F9B400DB8861 /* ListVC.swift */,
+				A247BCF728D6FDA700DB8861 /* ListVCVM.swift */,
+				A247BCF928D6FF7B00DB8861 /* Model */,
+			);
+			path = ListVC;
+			sourceTree = "<group>";
+		};
+		A247BD1C28D74E9400DB8861 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A247BCC928D6F9B500DB8861 /* Assets.xcassets */,
+				A247BCF428D6FD2300DB8861 /* Connection.swift */,
+				A247BCC028D6F9B400DB8861 /* AppDelegate.swift */,
+				A247BCF228D6FA2B00DB8861 /* data.json */,
+				A247BD1D28D7507C00DB8861 /* extensions.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +343,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A247BD1028D733C000DB8861 /* TextTVCell.xib in Resources */,
 				A247BCCD28D6F9B500DB8861 /* LaunchScreen.storyboard in Resources */,
 				A247BCCA28D6F9B500DB8861 /* Assets.xcassets in Resources */,
+				A247BD1528D7399700DB8861 /* DetailsCVCell.xib in Resources */,
+				A247BD0B28D72FFA00DB8861 /* ImageTVCell.xib in Resources */,
 				A247BCC828D6F9B400DB8861 /* Main.storyboard in Resources */,
+				A247BCF328D6FA2B00DB8861 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +374,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A247BCC528D6F9B400DB8861 /* ViewController.swift in Sources */,
+				A247BCC528D6F9B400DB8861 /* ListVC.swift in Sources */,
+				A247BCFD28D7067E00DB8861 /* NASAImageCVCell.swift in Sources */,
+				A247BD1428D7399700DB8861 /* DetailsCVCell.swift in Sources */,
+				A247BD0A28D72FFA00DB8861 /* ImageTVCell.swift in Sources */,
+				A247BCF828D6FDA700DB8861 /* ListVCVM.swift in Sources */,
+				A247BCFB28D6FF8C00DB8861 /* NASAItem.swift in Sources */,
+				A247BD0328D72B2800DB8861 /* PresentAnimator.swift in Sources */,
+				A247BD0F28D733C000DB8861 /* TextTVCell.swift in Sources */,
+				A247BCF528D6FD2300DB8861 /* Connection.swift in Sources */,
+				A247BD0028D7079A00DB8861 /* NASAImageView.swift in Sources */,
+				A247BD1E28D7507C00DB8861 /* extensions.swift in Sources */,
+				A247BD0428D72B2800DB8861 /* DismissAnimator.swift in Sources */,
+				A247BD1728D73AF100DB8861 /* DetailsViewModel.swift in Sources */,
 				A247BCC128D6F9B400DB8861 /* AppDelegate.swift in Sources */,
-				A247BCC328D6F9B400DB8861 /* SceneDelegate.swift in Sources */,
+				A247BD0628D72E6100DB8861 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +571,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +600,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
